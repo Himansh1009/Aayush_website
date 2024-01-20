@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background-color: #dada;
+}
+
+.navb{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.navb .navbar{
+    border-radius: 25px;
+    border-collapse: collapse;
+    background-color: #434344;
+    width: 20%;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 1000;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    /* padding: 0;
+    margin: 0; */
+
+
+}
+
+.navbar ul li{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.navbar ul li a i{
+    color:aliceblue;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+}
+
+
+.dv1{
+    border-collapse: collapse;
+    height: 30px;
+    /* width: 30px; */
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin: 150px 0 0 0;
+    position: sticky;
+}
+.intro{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:10px;
+    padding: 0 20px 20px 20px;
+}
+
+.vid1{
+    height: 30%;
+    width: 27%;
+    position: relative;
+    top: 92px;
+    left: 24px;
+    
+}
+
+.vid2{
+    height: 30%;
+    width: 27%;
+    position: relative;
+    top: 150px;
+    left: 24px;
+    
+}
